@@ -1,0 +1,174 @@
+html, body {
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background:#9df3c4;
+  }
+
+  header i{
+      color: #1fab89;
+  }
+
+  header h1, header i{
+      margin: 0 5px;
+      font-size: 3rem; 
+  }
+
+  header nav ul{
+      display: flex;
+      font-size: 2rem ;
+      font-weight: 700;
+  }
+
+  header nav li{
+      margin: 0 10px;
+      text-decoration: underline;
+
+  }
+
+  .logo-wrapper{
+      display: flex;
+      align-items: center;
+  }
+
+  .content{
+      display: flex;
+      background: #9df3c4;
+      padding: 5rem;
+  }
+  section, aside {
+      background: white;
+      padding: 20px;
+      margin:15px;
+    }
+
+  section{
+      flex: 2;
+     }
+  
+     .img-article {
+      margin: 10px;
+      
+     }
+ 
+     .floated-left{
+      float: left;
+    
+     }
+     .floated-right{
+      float:right;
+     }
+  aside{
+      flex:1;
+     }
+     aside ul{
+         display: flex;
+         flex-direction: column;
+     }
+     aside li{
+         flex:1;
+         align-self: stretch;
+         background: lightgray;
+         margin: 5px;
+         padding:5px;
+     }
+     aside li:hover{
+         background: rgb(241, 111, 111);
+         color: white;
+     }
+  footer{
+      min-height: 200px;
+      background:#1fab89;
+      color: #d7fbe8;
+      padding: 1rem 0;
+      }
+    footer li{
+        margin:20px;
+    }
+     footer a  {
+         color:#d7fbe8;
+         font-weight: 500;
+         margin-top:100px ;
+        
+     }
+     footer a:hover {
+         color:blue;
+     }
+     footer a:active{
+         color:blueviolet;
+     }
+     
+     .first-footer{
+         margin-left:20px;
+     }
+
+     .foot2 {
+       text-align: center;
+     }
+
+     .return-top{
+         position:fixed;
+         bottom: 40px;
+         right: 40px;
+         width: 100px;
+         height: 100px;
+         border-radius: 50%;
+         background: #d7fbe8;
+         color:#1fab89;
+         font-size: 2rem;
+         display:flex;
+         align-items:center;
+         justify-content: center;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
